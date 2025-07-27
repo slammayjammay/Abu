@@ -1,0 +1,19 @@
+{
+  "name": "abu",
+  "version": "1.0.0",
+  "description": "Abu",
+  "manifest_version": 3,
+  "optional_permissions": ["userScripts"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "page": "page.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "abu@scottosmckenzie.com"
+    }
+  }
+}
